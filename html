@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>스마트 가계부</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>💰 스마트 가계부</h2>
+        <form id="recordForm">
+            <input type="date" id="dateFull" required>
+            <select id="type">
+                <option value="지출">지출</option>
+                <option value="수입">수입</option>
+            </select>
+            <input type="text" id="mainCategory" placeholder="대분류" required>
+            <input type="text" id="subCategory" placeholder="소분류">
+            <input type="text" id="description" placeholder="사용내역" required>
+            <input type="number" id="amount" placeholder="금액" required>
+            <input type="text" id="account" placeholder="결제수단/계좌">
+            <input type="text" id="note" placeholder="비고">
+            <button type="submit">등록하기</button>
+        </form>
+        <div id="status"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
