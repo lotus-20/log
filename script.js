@@ -1,4 +1,4 @@
-const GAS_URL = "여기에_본인의_구글_웹앱_URL을_넣으세요";
+const GAS_URL = "https://docs.google.com/spreadsheets/d/12E_SkwCPIy2pBEsg3qLXVgpM8AF44DTAK8uV8G-bQaY/edit?gid=0#gid=0";
 
 document.getElementById('recordForm').addEventListener('submit', async (e) => {
     e.preventDefault();
